@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Color Picker 🎨 Game!</h1>
+        <p>Guess any color and try your luck!</p>
+
+        <div class="Color-options">
+           <button id="redBtn" class="color-btn red" data-color="red=">Red</button>
+           <button id="yellowBtn" class="color-btn yellow" data-color ="yellow">Yellow</button>
+           <button id="blueBtn" class="color-btn blue" data-color="blue=">Blue</button>
+        </div>
+
+        <p>Score:<span id="score">0</span></p>
+        <div id="resultBox"></div>
+        
+        <div id="dialog-overlay" class="hidden">
+        <div id="dialog-message"></div>
+        <button id="dialog-reset-btn">Reset</button>
+           </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

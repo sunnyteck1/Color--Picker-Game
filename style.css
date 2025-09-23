@@ -1,0 +1,76 @@
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #36454f;
+    color: #e6e6e6;
+    text-align: center;
+
+}
+ 
+.game-container {
+    background-color: #162447;
+    padding: 3rem;
+    border-radius: 25px;
+    border: 3px solid fuchsia;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.9);
+    max-width: 380px;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman';
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color:fuchsia;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    font-family:monospace;
+}
+.color-btn{
+    font-family: 'poppins'sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.8);
+    color:#1a1a2e;
+    margin-bottom: 10px;
+}
+
+.color-btn.red{
+ background-color:red;
+}
+
+.color-btn.yellow{
+    background-color: yellow;
+    
+}
+
+.color-btn.blue{
+    background-color: blue;
+}
+
+#score{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color:#fff;
+}
+
+#dialog-reset-btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color:fuchsia;
+    color:#1a1a2e;
+}
