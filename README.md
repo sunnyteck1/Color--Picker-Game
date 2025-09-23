@@ -9,10 +9,8 @@ Built with HTML, CSS and JAVASCRIPT.
 ‎
 ‎Features:
 
-
 ‎
 ‎1.Three color options: Red, Yellow, Blue
-
 ‎
 
 2.‎Randomized correct answer each round
