@@ -17,11 +17,11 @@ body{
     border-radius: 25px;
     border: 3px solid fuchsia;
     box-shadow: 0 10px 25px rgb(0,0,0,0.9);
-    max-width: 350px;
+    max-width: 330px;
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-family: Georgia, 'Times New Roman';
     font-weight: 800;
     margin-bottom: 1.5rem;
@@ -74,4 +74,5 @@ p {
     background-color:fuchsia;
     color:#1a1a2e;
 }
+
 
