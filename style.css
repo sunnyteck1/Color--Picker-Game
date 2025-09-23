@@ -17,7 +17,7 @@ body{
     border-radius: 25px;
     border: 3px solid fuchsia;
     box-shadow: 0 10px 25px rgb(0,0,0,0.9);
-    max-width: 380px;
+    max-width: 350px;
 }
 
 h1{
@@ -74,3 +74,4 @@ p {
     background-color:fuchsia;
     color:#1a1a2e;
 }
+
