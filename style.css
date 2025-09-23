@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     background-color: #36454f;
     color: #e6e6e6;
@@ -74,6 +74,7 @@ p {
     background-color:fuchsia;
     color:#1a1a2e;
 }
+
 
 
 
